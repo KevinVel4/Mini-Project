@@ -34,6 +34,7 @@
     <main>
         <section id="about">
         <h2>About</h2>
+        <div class="row">
       <div class="section__description">
         <div class="section__description--wrapper">
          <p class="section__description--para" >
@@ -47,41 +48,47 @@
             <img src="./Assets/about.jpg" alt="">
         </figure>
       </div>
+    </div>
     </section>
 
         <section id="discord">
         <h2>Discord</h2>
+        <div class="row">
         <div  class="section__description">
         <figure class="about__img--wrapper">
             <img src="./Assets/discord.png">
         </figure>
-        <div>
+        <div class="section__description--wrapper">
             <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consectetur sunt laboriosam itaque, libero rem, delectus voluptates quasi accusantium et fugit inventore nam exercitationem dolore deleniti sed nostrum a aut.</p>
             <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consectetur sunt laboriosam itaque, libero rem, delectus voluptates quasi accusantium et fugit inventore nam exercitationem dolore deleniti sed nostrum a aut.</p> 
         </div>
     </div>
+     </div>
     </section>
 
         <section id="contact">
         <h2>Contact</h2>
         <form action="">
             <label>Email</label>
-            <input type="text" placeholder="kevinvelam@gmail.com">
+            <input type="email" placeholder="ejemplo@gmail.com">
             <label>Message</label>
-            <textarea type="text" placeholder="manuherferr13@gmail.com"></textarea>
+            <textarea type="text" placeholder="Escribeme"></textarea>
+            <button>Contact Us!</button>
         </form>
     </section>
     </main>
 
     <footer>
-        <img src="./Assets/FES.svg">
-        <div>
-            <a href="https://www.youtube.com/">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="">Courses</a>
+        <img class="footer__logo" src="./Assets/FES.svg">
+        <div class="footer__links" >
+            <a class="footer__link" href="https://www.youtube.com/">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
+            <a class="footer__link" href="">Courses</a>
         </div>
+    
         <p>Copyright Frontend Simplified</p>
+        </div>
     </footer>
 </body>
 </html>
