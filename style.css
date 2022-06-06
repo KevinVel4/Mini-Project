@@ -156,6 +156,8 @@ form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 24px;
+
 }
 
 input, textarea {
@@ -235,14 +237,29 @@ PHONES,TABLETS
 
    .section__description--wrapper {
        width: 100%;
+
    }
 
    .about__img--wrapper {
        width: 100%;
    }
 
-   #discord .section__description ???{
-       flex-direction: row-reverse;
+   #discord .section__description {
+       flex-direction: column-reverse;
+   }
+
+   footer {
+       padding: 48px 24px;
+   }
+
+   .footer__link {
+       padding: 0 2px;
+       font-size: 14px;
+   }
+
+   .footer_links {
+       margin-bottom: 12px;
+   }
    }
 
 
